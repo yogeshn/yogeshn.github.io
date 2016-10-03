@@ -1,83 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<style>
-	html, body{ width: 100%; height: 100%; margin: 0; padding: 0}
-</style>
-
+<title>Yogesh Nitnaware</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css" />
   
-<script src="jquery-3.1.0.min.js"></script>
+<link rel="stylesheet" href="css/tabs-to-dropdown.css">
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <script src="jquery-3.1.0.min.js"></script>
 <script src="jparticle.jquery.min.js"></script>
-
-
-  <style>
-  name {
-      display: block;
-   color: white;
-      padding: 100px;
-      font-size: 50px;
-	font-family:"sans-serif";
-padding-bottom:10px;
-  }  
-specialization
-{
-	color: white;	
-     
-    padding-left: 108px;
-
-	height:10px;
-      font-size: 25px;
-	font-family:"serif";
-}
-
-a
-{
-
-     
-    
-color: #F2BA49;
-	height:10px;
-      font-size: 25px;
-	font-family:"serif";
-	margin-left:10px;
-	
-	text-decoration:none;
-	
-}
-
-links
-{
-padding-left: 100px;
-padding-top:10px;
-display: block;
-}
-
-a:hover
-{
-color: #005544;
-}
-
-canvas{
-margin-top: -250px;
-}
-  </style>
-
-
-
+<script type='text/javascript' src='layout.js'></script>
+<script src="js/tabs-to-dropdown.js"></script>
 </head>
 <body>
-
-
-
-
-
-
-
-<name>Yogesh Nitnaware</name>
+<header class="tabs-to-dropdown">
+            <nav class="tab-bar">
+                <ul>
+                    <li class="active"><a href="#"><span class="fa fa-home"></span></a></li>
+                    <li><a href="#0">About Me</a></li>
+                    <li><a href="#0">What I do?</a></li>
+                    <li><a href="#0">My Skills</a></li>
+                    <li><a href="#0">Resume</a></li>
+                    <li><a href="#0">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="dropdown">
+                <button class="dropdown-toggle">...<span class="fa fa-angle-down"></span></button>
+                <ul></ul>
+            </div>
+        </header>
+<myname>Yogesh Nitnaware</myname>
 <specialization>Software Developer | Tech Enthusiast | Learner </specialization>
 
 
@@ -98,22 +51,7 @@ margin-top: -250px;
                 </links>
 
 
-<script>
-	$(function(){
-		$("body").jParticle({
-			background: "#14A989",
-			color: "#fff",particle: {
-	  color: "white",
-	  minSize: 2,
-	  maxSize: 8,
-	  speed: 80
 
-	} , particlesNumber: 70
-
-		});
-	});
-	</script>
-        
 
 </body>
 </html>
